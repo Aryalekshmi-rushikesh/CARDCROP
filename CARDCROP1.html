@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animated Header - Professional Web Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f8fafc;
+            color: #222;
+        }
+        header {
+            background: linear-gradient(90deg, #b2d0e3 0%, #95aab2 100%);
+            padding: 60px 0 40px 0;
+            box-shadow: 0 2px 8px rgba(52,152,219,0.08);
+        }
+        h1 {
+            font-size: 2.8em;
+            color: #fff;
+            margin: 0;
+            letter-spacing: 2px;
+            animation: bounce 1.5s infinite alternate;
+        }
+        @keyframes bounce {
+            0%   { transform: translateY(0); }
+            50%  { transform: translateY(-18px) scale(1.05); }
+            100% { transform: translateY(0); }
+        }
+        nav {
+            margin-top: 30px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 18px;
+            font-size: 1.1em;
+            transition: color 0.2s;
+        }
+        nav a:hover {
+            color: #222;
+        }
+        main {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 16px rgba(52,152,219,0.07);
+            padding: 36px 28px;
+        }
+        h2 {
+            color: #3498db;
+            margin-top: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 24px 0;
+            background: #eaf6fb;
+            color: #555;
+            font-size: 1em;
+            margin-top: 40px;
+        }
+        @media (max-width: 600px) {
+            h1 { font-size: 2em; }
+            main { padding: 18px 8px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CARDCROP</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Welcome to Card crop</h2>
+        <p>
+            Experience the rich aroma and flavour of our high-quality ELACHI,sourced from the lush plantations of Idukki,Kerala.Our ELACHI is carefully hand-picked and dried to preserve its unique flavor profile and medicinal properties. With its sweet, lemony, and eucalyptus notes, our elaichi adds a delightful twist to various dishes, from curries and biryanis to desserts and beverages.Our product is a perfect blend of tradition and quality.
+
+ 
+        </p>
+        <p>
+            Explore our services and discover how we can help you grow and succeed in today's competitive market.
+        </p>
+    </main>
+    <footer>
+        &copy; 2025. All rights reserved.
+    </footer>
+</body>
+</html>
